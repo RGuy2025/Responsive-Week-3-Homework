@@ -53,13 +53,13 @@ a:hover {
   text-transform: capitalize;
 }
 
-#contact-link {
+.contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-#about-link {
+.about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -99,4 +99,16 @@ a:hover {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 576px) {
+  #img-homepage {
+    display: none;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  span {
+    display: none;
+  }
 }
