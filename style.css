@@ -38,6 +38,9 @@ p {
 a:hover {
   color: #1007b0;
 }
+.nav-link {
+  text-decoration: none;
+}
 
 .navigation-links {
   display: flex;
